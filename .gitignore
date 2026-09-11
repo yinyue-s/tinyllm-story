@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# 环境变量与密钥（.env.example 为模板）
+.env
+
+# 数据库与运行期生成的向量索引
+*.db
+*.sqlite3
+data/story_faiss_index/
+
+# 生成物
+test/logs/
+test/output/
+fronted/generated/
+
+# 原始语料（体积较大，未纳入仓库）
+src/data/gushi365_data/
+
+# IDE 与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
